@@ -1,0 +1,131 @@
+body, div, span, applet, h1, h2, h3, p, a, img, strong, sub, sup, center, dl, dt, dd, ol, ul, li, table, tr, th, td { 
+    margin:0px; 
+    padding:0px; 
+    border:0px; 
+    outline:0px; 
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+header { 
+    height:50px;
+    margin-top: 20px;
+}
+header ul { 
+    float: right;
+    list-style: none;
+}
+header ul li {
+    float: left;
+}
+.clear {
+    clear:both;
+}
+section {
+    width: 590px;
+    margin: 190px auto 0;
+}
+.logo {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto 30px;
+}
+.search-box {
+    width: 590px;
+    height: 46px;
+    background-color: #fff;
+    border:1px solid #eee;
+    border-radius: 46px;
+}
+.search-box:hover {
+    border:1px solid #fff;
+    box-shadow: 0 2px 4px 0 #ccc, 0px 4px 12px 0 #ccc;
+}
+.icon, .input-area, .voice-call {
+    float: left;
+}
+.icon {
+    fill:#ccc;
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    padding: 14px 10px 14px 20px;
+    display: inline-block;
+}
+.input-area {
+    width: 480px;
+    height: 46px;
+}
+input {
+    width: 480px;
+    height: 42px;
+    line-height: 48px;
+    border: none;
+    color:#333;
+}
+input:focus {
+    outline: none;
+}
+.voice-call {
+    width: 24px;
+    height: 24px;
+    padding: 12px 15px 12px 20px;
+}
+.buttons {
+    width: 290px;
+    margin: 0 auto;
+}
+.googlesearch, .feelinglucky {
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+.feelinglucky {
+    padding: 0 16px;
+
+}
+footer {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #eee;
+    line-height: 45px;
+    color: #70757a;
+}
+footer hr {
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+footer p {
+    margin-left:35px;
+}
+footer ul.menu1 {
+    list-style:none;
+    float: left;
+    margin-left: 35px;
+}
+footer ul.menu2 {
+    list-style:none;
+    float: right;
+    margin-right: 35px;
+}
+footer ul.menu1 li, footer ul.menu2 li, header ul li {
+    float: left;
+    margin-right: 20px;
+}
+footer ul.menu1 li a, footer ul.menu2 li a, header ul li a {
+    color: #70757a;
+    text-decoration: none;
+}
+footer ul.menu1 li a:hover, footer ul.menu2 li a:hover, header ul li a:hover {
+    text-decoration: underline;
+}
